@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    height: 46px;
+    background: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 53px;
+
+}
+
+.nome {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subNome {
+    margin-left: 6px;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 6px;
+    border-radius: 6px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 53px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
