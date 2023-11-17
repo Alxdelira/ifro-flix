@@ -1,9 +1,13 @@
 .backImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url('/backgroundImage.png');
-    height: 397px;
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .container {
@@ -13,7 +17,7 @@
 }
 
 .titulo {
-    margin-top: 157px;
+    margin-top: 120px;
     color: #000;
     font-family: Roboto;
     font-size: 36px;
@@ -37,7 +41,7 @@
 }
 
 .busca input {
-    width: 933px;
+    width:933px;
     height: 40px;
     background: #FFFFFF;
     border: 1px solid #000;
@@ -58,4 +62,33 @@
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #C0392B;
     background: #C0392B;
+    cursor: pointer;
+}
+
+.busca button:hover {
+    background: #da2713;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        margin: 0; 
+    }
+
+    .busca {
+        flex-direction: row; 
+    }
+
+    .busca input {
+        width: auto; 
+        max-width: 100%; 
+        border-radius: 5px; 
+        margin-right: 10px; 
+    }
+
+    .busca button {
+        width: auto; 
+        max-width: 100%; 
+        border-radius: 5px; 
+        margin-top: 0;
+    }
 }
